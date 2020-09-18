@@ -1,9 +1,18 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div class="center jumbotron">
+  <h1>welcome to sample app</h1>
+  <h2>this is home page</h2>
+  <%= link_to "sign uo", '#', class: "btn btn-lg btn-primary" %>
 
-<h1>Sample app</h1>
-<p>
-  this is home page for the <a href="internet.org">internet</a>
-  
-  sample application
-</p>
+  <h1>StaticPages#home</h1>
+  <p>Find me in app/views/static_pages/home.html.erb</p>
+
+  <h1>Sample app</h1>
+  <p>
+    this is home page for the <a href="internet.org">internet</a>
+
+    sample application
+  </p>
+
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "rails logo"), "http://rubyonrails.org" %>
